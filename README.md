@@ -2,7 +2,7 @@
 
 ## Overview of Project
 During our project, Steve, who recently completed his Financial Degree, collaborated with us to evaluate a potential investment in DAQO, a New Energy Corporation specializing in silicon wafers for solar panels. While this investment may seem attractive, Steve wanted to provide alternative options to his parents to avoid investing all their money in one company and to diversify their funds into other green energy stocks. To streamline our analysis, we utilized Visual Basic for Applications, an editable programming code that interacts with Excel to perform calculations and analysis. This approach ensured consistency and saved time compared to manual analysis.
-
+ 
 ### Results
 After optimizing the VBA code, the script's performance improved significantly compared to the original version. In 2017, the code's runtime was approximately 0.5 seconds, but after the modifications, it dropped to 0.2 seconds. Similarly, in 2018, the script took 0.48 seconds to execute, but after refactoring, its runtime was also reduced to 0.2 seconds. It is worth noting that 2017 had a higher number of positive returns than 2018. However, only ENPH managed to achieve positive returns for both years, while TERP suffered losses in both.
 
