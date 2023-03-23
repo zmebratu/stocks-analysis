@@ -13,15 +13,17 @@ After optimizing the VBA code, the script's performance improved significantly c
 ## Summary
 In our previous project, we utilized a process called Code Refactoring, which involves restructuring the code while maintaining its original function and external behavior. This process offers several benefits to the coding process, including increased productivity and techniques for faster code execution. Some of the advantages of Code Refactoring include:
 
-Facilitating the discovery and fixing of bugs.
-Improving software design and increasing its comprehensibility.
-Preventing code duplication and eliminating superfluous or confusing code.
-Creating cleaner code with shorter and more self-contained methods.
-Enhancing testability.
+* Facilitating the discovery and fixing of bugs.
+* Improving software design and increasing its comprehensibility.
+* Preventing code duplication and eliminating superfluous or confusing code.
+* Creating cleaner code with shorter and more self-contained methods.
+* Enhancing testability.
+
 However, Code Refactoring also has its disadvantages, such as:
 
-The possibility of introducing new bugs and errors.
-Lack of a clear definition of "clean code".
-Requiring higher coordination in team settings.
-Not always resulting in immediate benefits, as the functionality may remain unchanged.
+* The possibility of introducing new bugs and errors.
+* Lack of a clear definition of "clean code".
+* Requiring higher coordination in team settings.
+* Not always resulting in immediate benefits, as the functionality may remain unchanged.
+
 We applied these advantages to our VBA macro, and successfully modified the code to execute faster than before. Specifically, we used an if function to check if the current row was the first or last row with the selected ticker, rather than only checking starting and ending prices. We accomplished this in fewer steps than the previous code. Additionally, we consolidated three separate for loops into a single one, which outputs the ticker, total daily volume, and return.
